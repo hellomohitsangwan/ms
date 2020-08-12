@@ -1,0 +1,222 @@
+body{
+    margin-top: 88px;
+    overflow-x: hidden;
+}
+.navbar .nav-item{
+    font-size: 1.4rem;
+    margin-left: 1.2rem;
+    }
+    .column1{
+        line-height: 20rem;
+        font-size: 20rem;
+    }
+    .carousel-item-resp{
+    height: 480px;
+}
+.carousel-image-1{
+    background: url(../css/img/bill8.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(../css/img/caro32.jpg);
+    background-size: cover;
+}
+
+#fixed-resp{
+    opacity: 0.8;
+    position: fixed;
+width: 100%;
+height: 200px;
+top: 50%;
+left: 0%;
+right: 0%;
+margin-top: -100px; /* Negative half of height. */
+z-index: 1111;
+}
+
+
+    #showcase{
+        min-height: 664px;
+        position: relative;
+        background: url(../css/img/media.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color:black;
+    }
+    #showcase-res{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+    }
+
+    #introduction{
+        position: relative;
+        min-height:180px;
+        background: url(../css/img/lights.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+    .dark-overlay{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    #skills{
+        position: relative;
+        min-height:164px;
+        background: url(../css/img/coding5.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 100%;
+    }
+
+    #service{
+        position: relative;
+        min-height:164px;
+        background: url(../css/img/coding5.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+    #services{
+        background-color:#eeeeee;
+    }
+    #workTogether{
+        position: relative;
+        min-height:280px;
+        background: url(../css/img/media.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;   
+    }
+    #footer{
+        font-weight: bold;
+        color: #d54062; 
+    }
+    #contact{
+        position: relative;
+        min-height:180px;
+        background: url(../css/img/coding2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;  
+    }
+    #plans{
+        position: relative;
+        min-height:180px;
+        background: url(../css/img/money6.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;   
+    }
+    #projects{
+        position: relative;
+        min-height:160px;
+        background: url(../css/img/coding8.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fff;   
+    }
+
+    .card{
+        margin-top: 12px;
+    }
+
+#faq-test .card{
+    border: #444;
+}
+#faq-test a{
+color: #fff;
+text-decoration: none;
+}
+#faq-test .card-body,
+#faq-test .card-header
+{
+    color: #fff;
+background: #333;
+}
+
+
+#showcase .heading1resp{
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+#showcase .heading2resp{
+    font-size: 4.0rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+#bill .resp-text{
+    margin-top: 80px;
+}
+
+
+    @media(max-width:700px){
+        body{
+            margin-top: 88px;
+            overflow-x: hidden;
+        }
+        .navbar-resp{
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+          .navbar .nav-item{
+              font-size: 1.2rem;
+              margin-left: 0rem !important;
+          }
+          .navbar .navabr-brand-resp{
+              font-size: 1.6rem;
+          }
+          .navbar .navbar-image-resp{
+              width: 48;
+              height: 48;
+          }
+          .navbar .toggler-resp{
+              margin-right: 1rem;
+          }
+          #showcase{
+              text-align: center;
+          }
+          #showcase .heading1resp{
+              font-size: 3.2rem;
+              line-height: 4.4rem;
+          }
+          #showcase .heading2resp{
+            font-size: 3.6rem;
+            line-height: 4.8rem;
+            font-weight: 700;
+        }
+        .aboutMee .mohit-resp{
+            width: 188px;
+            height: 164px;
+        }
+        .heading-resp{
+            font-size: 1.8rem;
+        }
+        #introduction{
+            background: url(../css/img/coding10.jpg);
+            min-height: 160px;
+            background-attachment: fixed;
+        background-repeat: no-repeat;
+        }
+        #skills{
+            min-height: 140px;
+        }
+        #workTogether{
+            min-height: 310px;
+        }
+        #projects{
+            min-height: 256px;
+        }
+        #plans{
+            min-height: 164px;
+        }
+    }

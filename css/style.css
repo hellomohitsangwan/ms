@@ -1,3 +1,17 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  /* font-family: "Baloo Da 2", cursive; */
+/* } */
+html {
+  font-size: 82%;
+  scroll-behavior: smooth;
+}
+
 body {
   margin-top: 88px;
   overflow-x: hidden;
@@ -125,9 +139,9 @@ body {
   color: #fff;
 }
 
-.card {
-  margin-top: 12px;
-}
+/* .card {
+  margin-top: 12px; */
+/* } */
 
 #faq-test .card {
   border: #444;
@@ -157,6 +171,203 @@ body {
 .test {
   font-weight: bolder;
 }
+
+.section-3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #03070e;
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+}
+
+.pricing-cards-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.pricing-card {
+  width: 28rem !important;
+  height: 45rem !important;
+  background-color: #181b1d;
+  border-radius: 1rem;
+  box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.7);
+}
+
+.pricing-card-front {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing-card-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.heading-free {
+  background: linear-gradient(to right, #087285, #0da5d3);
+}
+
+.heading-basic {
+  background: linear-gradient(to right, #946809, #bdba0e);
+}
+
+.heading-standard {
+  background: linear-gradient(to right, #a10c14, #e23b3b);
+}
+
+.heading-premium {
+  background: linear-gradient(to right, #0b7e48, #3be286);
+}
+
+.pricing-card-price {
+  font-family: "MADE Soulmaze", sans-serif;
+  font-size: 7rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.pricing-card-list li {
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card-list i {
+  font-size: 1.8rem;
+  width: 3rem;
+}
+
+.pricing-card-list span {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.list-free {
+  color: #0da5d3;
+}
+
+.list-basic {
+  color: #bdba0e;
+}
+
+.list-standard {
+  color: #e23b3b;
+}
+
+.list-premium {
+  color: #3be286;
+}
+
+.pricing-card-btn {
+  width: 18rem;
+  height: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+}
+.card {
+  margin-top: 1rem;
+}
+.btn-free {
+  background-color: #0da5d3;
+}
+
+.btn-basic {
+  background-color: #bdba0e;
+}
+
+.btn-standard {
+  background-color: #e23b3b;
+}
+
+.btn-premium {
+  background-color: #3be286;
+}
+
+.pricing-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  border-radius: 1rem;
+}
+
+.pricing-card-back a {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.back-free {
+  background: linear-gradient(to right, #087285, #0da5d3);
+}
+
+.back-basic {
+  background: linear-gradient(to right, #946809, #bdba0e);
+}
+
+.back-standard {
+  background: linear-gradient(to right, #a10c14, #e23b3b);
+}
+
+.back-premium {
+  background: linear-gradient(to right, #0b7e48, #3be286);
+}
+
+#particles-js {
+  position: relative;
+  z-index: 2;
+  background-color: #4398ff;
+}
+
+.header,
+.banner-section {
+  position: relative;
+  width: 100%;
+}
+
+.banner-section {
+  height: 100vh;
+  padding-top: 150px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #3c94ff;
+  background-image: url(../img/bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header-inner {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 44;
+  left: 0;
+}
+
 @media (max-width: 700px) {
   body {
     margin-top: 88px;

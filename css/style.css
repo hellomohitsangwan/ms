@@ -272,6 +272,7 @@ body {
 }
 
 .pricing-card-btn {
+  z-index: 100;
   width: 18rem;
   height: 5rem;
   margin-bottom: 3rem;
@@ -282,6 +283,7 @@ body {
   color: #fff;
   text-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
 }
+
 .card {
   margin-top: 1rem;
 }

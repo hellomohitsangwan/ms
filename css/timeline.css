@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+/* @import "https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700"; */
 #timeline .timeline-item:after,
 header:after,
 #timeline .timeline-item:before,
@@ -49,7 +49,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Dosis", arial, tahoma, verdana;
+  /* font-family: "Dosis", arial, tahoma, verdana; */
   font-weight: 500;
 }
 

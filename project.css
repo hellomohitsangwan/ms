@@ -1,0 +1,272 @@
+.carddd {
+  /* width: 24rem !important; */
+  position: relative;
+  perspective: 150rem;
+  margin-right: 3.2rem;
+}
+.butn {
+  font-weight: 600;
+  border: solid 2px black;
+  outline: 0;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.08rem;
+  background-color: white;
+  border-radius: 0.35rem;
+  position: relative;
+  cursor: pointer;
+}
+.butn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+  z-index: -1;
+  border-radius: 0.35rem;
+  border: solid 2px black;
+  transition: all 0.3s ease-in-out;
+}
+button.style-5::after {
+  border: 0;
+  box-shadow: 0px 0px 0px 2px black;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+/* a:hover {
+  background-color: pink;
+  border: 0;
+} */
+button.style-5:hover::after {
+  background-color: black;
+  box-shadow: none;
+}
+
+/* .card-image {
+    width: 100%;
+    border-radius: 0.3rem 0.3rem 0 0;
+  } */
+
+/* .front-side {
+    text-align: center;
+    background-color: var(--white-color);
+    border-radius: 0.3rem;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+  }
+  
+  .change > .front-side {
+    transform: translateZ(-5rem) translateX(3rem);
+    box-shadow: 0 2rem 4rem #777;
+    opacity: 0.5;
+    z-index: 0;
+  }
+  
+  .tour-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    right: 1.5rem;
+    color: var(--white-color);
+    text-shadow: 0 0 1rem #000;
+  }
+  
+  .card-list {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0 3rem 0;
+  }
+  
+  .card-list-item {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--light-grey-color);
+    margin: 2rem 0;
+    border-bottom: 0.1rem solid var(--primary-color);
+    padding-bottom: 1.5rem;
+  }
+  
+  .back-side {
+    position: absolute;
+    top: 0;
+    background-color: var(--primary-color);
+    width: 100%;
+    /* height: 100%; 
+    border-radius: 0.3rem;
+    box-shadow: 0 2rem 4rem #777;
+    flex-direction: column;
+    transform: translateZ(-5rem) translateX(3rem);
+    opacity: 1;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+  }
+  
+  .change > .back-side {
+    transform: translateZ(0) translateX(0);
+    box-shadow: 0 0.5rem 2rem #aaa;
+    opacity: 0.9;
+  }
+  
+  .tour-price {
+    font-size: 5rem;
+    font-weight: 300;
+    color: var(--white-color);
+    margin-bottom: 3rem;
+  }
+  
+  .card-button {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border: none;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    letter-spacing: 0.2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+  }
+  
+  .navigation-button {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--light-grey-color);
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+  } */
+
+.wrapper-main {
+  margin: auto !important;
+}
+
+.front-side {
+  text-align: center;
+  background-color: var(--white-color);
+  border-radius: 0.3rem;
+  position: relative;
+  z-index: 10;
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change > .front-side {
+  transform: translateZ(-5rem) translateX(3rem);
+  box-shadow: 0 2rem 4rem #777;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.tour-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 30%;
+  right: 1.5rem;
+  color: var(--white-color);
+  text-shadow: 0 0 1rem #000;
+}
+
+.card-list {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0 3rem 0;
+}
+
+.card-list-item {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--light-grey-color);
+  margin: 2rem 0;
+  border-bottom: 0.1rem solid var(--primary-color);
+  padding-bottom: 1.5rem;
+}
+
+.back-side {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+  box-shadow: 0 2rem 4rem #777;
+  /* flex-direction: column; */
+  transform: translateZ(-5rem) translateX(3rem);
+  opacity: 1;
+  transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+/* .front-side_card {
+    top: 0.2rem;
+  }
+  .back-side_card {
+    top: 1.6rem;
+  } */
+
+.change > .back-side {
+  transform: translateZ(0) translateX(0);
+  box-shadow: 0 0.5rem 2rem #aaa;
+  opacity: 0.9;
+}
+
+.tour-price {
+  font-size: 5rem;
+  font-weight: 300;
+  color: var(--white-color);
+  margin-bottom: 3rem;
+}
+
+.card-button {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border: none;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  letter-spacing: 0.2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.navigation-button {
+  position: absolute;
+  bottom: 0.2rem;
+  left: 1rem;
+  /* right: auto; */
+  margin: 4px !important;
+  padding: 0.2rem;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: #e6e6e6;
+  color: #666666;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 560;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+  z-index: 1000;
+  transform: translateX(24%);
+  min-width: 60%;
+  align-items: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.child {
+  border-radius: 999999px !important;
+  font-size: 12px;
+}

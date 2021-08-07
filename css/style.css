@@ -403,6 +403,9 @@ body {
     width: 188px;
     height: 164px;
   }
+  .resp {
+    font-size: 4rem !important;
+  }
   .heading-resp {
     font-size: 1.8rem;
   }

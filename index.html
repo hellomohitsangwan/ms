@@ -1,1037 +1,852 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- font awesome -->
-    <script
-      src="https://kit.fontawesome.com/39937c3b6c.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/timeline.css" />
-    <title>Mohit Sangwan</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- light box -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-    />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>Mohit Sangwan</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav
-      class="
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/39937c3b6c.js" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
+  
+  <title>Mohit Sangwan</title>
+
+  <!-- light box -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="loader.css">
+  <link rel="stylesheet" href="customscrollbar.css">
+  <title>Mohit Sangwan</title>
+</head>
+
+<body data-gr-c-s-loaded="true" class="home_load load_test" >
+  <!-- perloader   -->
+  <div class="pre_loader">
+    <div class="preload">
+      <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid" class="lds-ripple" style="background:0 0">
+        <circle cx="50" cy="50" r="4.719" fill="none" stroke="#1d3f72" stroke-width="2">
+          <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1"
+            begin="-1.5s" repeatCount="indefinite" />
+          <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1"
+            begin="-1.5s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="50" cy="50" r="27.591" fill="none" stroke="#5699d2" stroke-width="2">
+          <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1"
+            begin="0s" repeatCount="indefinite" />
+          <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1"
+            begin="0s" repeatCount="indefinite" />
+        </circle>
+      </svg>
+      <img class="loaderimg" src="signature.png" alt="vdfvbd" width="400px">
+    </div>
+  </div>
+  <!-- navbar -->
+  <nav class="
         navbar navbar-expand-md navbar-light
         fixed-top
         py-2
         bg-dark
         navbar-dark navbar-resp
-      "
-      id="main-nav"
-    >
-      <div class="container">
-        <a href="index.html" class="navbar-brand">
-          <img
-            class="navbar-image-resp"
-            src="css/img/circle-cropped (3).png"
-            width="64"
-            height="64"
-            class="mx-4 pt-1"
-          />
-          <h3 class="d-inline align-middle navabr-brand-resp">Mohit Sangwan</h3>
-        </a>
-        <button
-          class="navbar-toggler toggler-resp"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a
-                href="index.html"
-                class="nav-link active"
-                style="color: #d54062; font-weight: bold"
-                >home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="projects.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="services.html" class="nav-link">Services Plans</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-
-
-    <!-- showcase -->
-    <section id="showcase" class="py-4">
-        <!-- <div class="particles-js" style="position: absolute; width: 100%; height: 100%"> -->
-      <div class="showcase-res">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7 align-self-center">
-              <div class="column1">
-                <h2 class="display-1 mt-2 pt-5 heading1resp">
-                  write CODE💻 and SMILE 😄
-                </h2>
-                <h2 class="pt-2 heading2resp">I am Mohit Kumar</h2>
-                <h2 class="pt-2 heading2resp">A <span style="color: black;" class="element test"></span></h2>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <img
-                src="css/img/—Pngtree—flat cartoon illustration man doing_5436228.png"
-                width="600"
-                height="600"
-                class="d-none img-fluid d-lg-block ml-auto mt-4"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    <!-- </div> -->
-    </section>
-
-    <!-- intro -->
-    <section id="introduction" class="p-4">
-      <div class="dark-overlay">
-        <div class="row mt-5">
-          <div class="col">
-            <div class="container text-center">
-              <h1 class="heading-resp">Hello All</h1>
-              <p>Let me introduce myself</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="aboutMe" class="p-4 aboutMee">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 text-center pt-3">
-            <img
-              src="css/img/circle-cropped (1).png"
-              width="340px"
-              height="312px"
-              class="mohit-resp"
-              alt=""
-            />
-          </div>
-          <div class="col-md-6 lead pt-4 text-center align-self-center">
-            HELLO👋<br />
-            I am Mohit Sangwan,a 19 year old full stack web and app developer
-            based in NEW DELHI who loves to code and design websites and full
-            stack intern at Pharmiq.I love working with different teams to
-            understand the different points of view and improve my team work
-            skill.I'm absolutely passionate about coding. I love to identify, to
-            challenge and to solve problems by setting up cutting-edge and
-            personalized solutions.More broadly, i'm very interested in learning
-            new technonogies and human behaviour, i try to learn about these
-            topics as much as i can ! ‍
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- timeline -->
-
-
-<div class="container">
-	<h1 class="project-name"> work experience</h1>
-	<div id="timeline">
-		<div class="timeline-item">
-			<div class="timeline-icon">
-				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
-					<path fill="#FFFFFF" d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
-	c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
-	l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
-	c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
-	c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
-				</svg>
-
-			</div>
-			<div class="timeline-content">
-
-				<h2 >Full stack intern</h2>
-        <h4 class="my-2 font-weight-bold mt-2">PharmIQ , New Jersey , USA</h4>
-        <ul>
-          <li> Added multiple features like filter sorting, etc and fixed some bugs on the client-side.Improved
-            efficiency of various components by 40%</li>
-          <li> worked with React-JS, Redux, Gatsby to build end-to-end solutions for multiple tasks</li>
-            <li>Revamped two main screens and developed the landing page of web app</li>
+      " id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img class="navbar-image-resp" src="css/img/circle-cropped (3).png" width="64" height="64" class="mx-4 pt-1" />
+        <h3 class="d-inline align-middle navabr-brand-resp">Mohit Sangwan</h3>
+      </a>
+      <button class="navbar-toggler toggler-resp" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active" style="color: #d54062; font-weight: bold">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services Plans</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Me</a>
+          </li>
         </ul>
-        <div class="d-flex justify-content-end bg-light ">
-          <p class="pt-2 mr-4">05/2021 - Present</p>
-        </div>
-				<!-- <a href="#" class="btn">button</a> -->
-			</div>
-		</div>
+      </div>
+    </div>
+  </nav>
 
-		<div class="timeline-item">
-			<div class="timeline-icon">
-				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
-					<path fill="#FFFFFF" d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
+
+
+  <!-- showcase -->
+  <section id="showcase" class="py-4">
+    <!-- <div class="particles-js" style="position: absolute; width: 100%; height: 100%"> -->
+    <div class="showcase-res">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 align-self-center">
+            <div class="column1">
+              <h2 class="display-1 mt-2 pt-5 heading1resp">
+                write CODE💻 and SMILE 😄
+              </h2>
+              <h2 class="pt-2 heading2resp">I am Mohit Kumar</h2>
+              <h2 class="pt-2 heading2resp">A <span style="color: black;" class="element test"></span></h2>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="css/img/—Pngtree—flat cartoon illustration man doing_5436228.png" width="600" height="600"
+              class="d-none img-fluid d-lg-block ml-auto mt-4" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+
+  <!-- intro -->
+  <section id="introduction" class="p-4">
+    <div class="dark-overlay">
+      <div class="row mt-5">
+        <div class="col">
+          <div class="container text-center">
+            <h1 class="heading-resp">Hello All</h1>
+            <p>Let me introduce myself</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aboutMe" class="p-4 aboutMee">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 text-center pt-3">
+          <img src="css/img/circle-cropped (1).png" width="340px" height="312px" class="mohit-resp" alt="" />
+        </div>
+        <div class="col-md-6 lead pt-4 text-center align-self-center">
+          HELLO👋<br />
+          I am Mohit Sangwan,a 19 year old full stack web and app developer
+          based in NEW DELHI who loves to code and design websites and full
+          stack intern at Pharmiq.I love working with different teams to
+          understand the different points of view and improve my team work
+          skill.I'm absolutely passionate about coding. I love to identify, to
+          challenge and to solve problems by setting up cutting-edge and
+          personalized solutions.More broadly, i'm very interested in learning
+          new technonogies and human behaviour, i try to learn about these
+          topics as much as i can ! ‍
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- timeline -->
+
+
+  <div class="container">
+    <h1 class="project-name"> work experience</h1>
+    <div id="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20"
+            xml:space="preserve">
+            <path fill="#FFFFFF" d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
 	c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
 	l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
 	c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
 	c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
-				</svg>
+          </svg>
 
-			</div>
-			<div class="timeline-content right">
-				<h2>Freelancer</h2>
-				<ul class="my-2 mt-2">
-          <li>          helping small and big businesses to grow more by converting their creative
-            ideas into webapps.</li>
-
-
-          
-				</ul>
-        <div class="d-flex justify-content-end bg-light ">
-          <p class="pt-2 mr-4">10/2020 - Present</p>
         </div>
-			</div>
-		</div>
-	</div>
-</div>
+        <div class="timeline-content">
+
+          <h2>Full stack intern</h2>
+          <h4 class="my-2 font-weight-bold mt-2">PharmIQ , New Jersey , USA</h4>
+          <ul>
+            <li> Added multiple features like filter sorting, etc and fixed some bugs on the client-side.Improved
+              efficiency of various components by 40%</li>
+            <li> worked with React-JS, Redux, Gatsby to build end-to-end solutions for multiple tasks</li>
+            <li>Revamped two main screens and developed the landing page of web app</li>
+          </ul>
+          <div class="d-flex justify-content-end bg-light ">
+            <p class="pt-2 mr-4">05/2021 - Present</p>
+          </div>
+          <!-- <a href="#" class="btn">button</a> -->
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" width="21px" height="20px" viewBox="0 0 21 20" enable-background="new 0 0 21 20"
+            xml:space="preserve">
+            <path fill="#FFFFFF" d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
+	c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+	l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+	c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+	c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
+          </svg>
+
+        </div>
+        <div class="timeline-content right">
+          <h2>Freelancer</h2>
+          <ul class="my-2 mt-2">
+            <li> helping small and big businesses to grow more by converting their creative
+              ideas into webapps.</li>
 
 
 
-    <!-- skills -->
-    <section id="skills" class="p-4">
-      <div class="dark-overlay">
-        <div class="row mt-5">
-          <div class="col">
-            <div class="container text-center">
-              <h1 class="heading-resp">MY SKILLS</h1>
-            </div>
+          </ul>
+          <div class="d-flex justify-content-end bg-light ">
+            <p class="pt-2 mr-4">10/2020 - Present</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <section id="progress" class="py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header text-center">
-                  <h4>
-                    <a
-                      href="#collapse7"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> LANGUAGES I KNOW
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapse7" class="collapse">
-                  <div class="card-body">
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-java fa-2x"></i> JAVA
-                      </div>
 
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-success
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 72%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-python fa-2x"></i> PYTHON
-                      </div>
 
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-primary
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 56%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/ci.png"
-                          width="24"
-                          height="24"
-                          class="d-inline"
-                          alt=""
-                        />
-                        C++
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-success
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 64%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-js-square fa-2x"></i> JAVASCRIPT
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-warning
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 48%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-9">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/kotlin8.png"
-                          width="24"
-                          height="24"
-                          class="d-inline"
-                          alt=""
-                        />
-                        KOTLIN
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-primary
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 32%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header text-center">
-                  <h4>
-                    <a
-                      href="#collapse8"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> FRONT-END WEB
-                      DEVELOPEMENT
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapse8" class="collapse show">
-                  <div class="card-body">
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-html5 fa-2x"></i> HTML 5
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-success
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 96%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-css3 fa-2x"></i> CSS
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-danger
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 80%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-bootstrap fa-2x"></i> BOOTSTRAP 4
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-primary
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 92%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-js-square fa-2x"></i> JAVASCRIPT
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-warning
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 72%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/jquery32.jpg"
-                          width="24"
-                          height="24"
-                          alt=""
-                        />
-                        JQUERY
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-info
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 56%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-react fa-2x"></i> REACT JS
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-secondary
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 80%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-redux fa-2x"></i> REDUX
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-secondary
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 72%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header text-center">
-                  <h4>
-                    <a
-                      href="#collapse9"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i>BACKEND WEB
-                      DEVELOPEMENT
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapse9" class="collapse">
-                  <div class="card-body">
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-node fa-2x"></i> NODE JS
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-primary
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 80%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/express8.png"
-                          width="24"
-                          height="24"
-                          alt=""
-                        />
-                        EXPRESS JS
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-danger
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 88%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/mongo8.png"
-                          width="48"
-                          height="44"
-                          alt=""
-                        />
-                        MONGO DB
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-warning
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 64%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/mongoose8.jpg"
-                          width="48"
-                          height="44"
-                          alt=""
-                        />
-                        MONGOOSE
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-info
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 72%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/rest8.png"
-                          width="32"
-                          height="32"
-                          alt=""
-                        />
-                        R E S T
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-success
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 48%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header text-center">
-                  <h4>
-                    <a
-                      href="#collapse10"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> APP DEVELOPEMENT
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapse10" class="collapse">
-                  <div class="card-body">
-                    <div class="row mb-3">
-                      <div class="col-md-3">
-                        <i class="fab fa-java fa-2x"></i> JAVA
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-success
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 72%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mb-9">
-                      <div class="col-md-3">
-                        <img
-                          src="css/img/kotlin8.png"
-                          width="24"
-                          height="24"
-                          class="d-inline"
-                          alt=""
-                        />
-                        KOTLIN
-                      </div>
-
-                      <div class="col-md-9">
-                        <div class="progress">
-                          <div
-                            class="
-                              progress-bar
-                              bg-danger
-                              progress-bar-striped progress-bar-animated
-                            "
-                            style="width: 32%"
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <img
-              src="css/img/—Pngtree—young people work and study_5426651.png"
-              width="368px"
-              height="368px"
-              class="img-fluid d-lg-block d-none"
-              alt=""
-            />
+  <!-- skills -->
+  <section id="skills" class="p-4">
+    <div class="dark-overlay">
+      <div class="row mt-5">
+        <div class="col">
+          <div class="container text-center">
+            <h1 class="heading-resp">MY SKILLS</h1>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- faq test -->
-    <section id="faq-test" class="bg-dark pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5>
-                    <a
-                      href="#collapse1"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> How to develope
-                      problem solving skills.Please do suggest some techniques?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse1" class="collapse">
-                  <div class="card-body">
-                    It is called practice.Start delebrately practicing skills
-                    that you need to improve.After that follow some basic rules
-                    and guidelines.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5>
-                    <a
-                      href="#collapse2"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> Does learning
-                      HTML and CSS make me a good programmer?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse2" class="collapse">
-                  <div class="card-body">
-                    HTML is a markup language and CSS is styling
-                    language.Neither is an actual programming language,but
-                    rather ther are document structures/styling features and if
-                    you wanted to be a good programmer then learn javascript
-                    after that.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5>
-                    <a
-                      href="#collapse3"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i>How do we learn
-                      code without laptop?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse3" class="collapse">
-                  <div class="card-body">
-                    Install Sololearn is your mobile,then any programming
-                    language and enjoy coding,it also provide an inbuilt text
-                    editor.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5>
-                    <a
-                      href="#collapse4"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> Is it okay to
-                      learn multiple programming languages simultaneously
-                      everyday?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse4" class="collapse">
-                  <div class="card-body">
-                    NO.It is not.Concentrate only in one language with
-                    mathematics because maths help in logic developement.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5>
-                    <a
-                      href="#collapse5"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i>Why I should learn
-                      to code in 2020?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse5" class="collapse">
-                  <div class="card-body">
-                    One day AI will replace to all the people except programmers
-                    the yoy have to learn code for job security.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5>
-                    <a
-                      href="#collapse6"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> I'm not good in
-                      maths,can i be good in programming?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse6" class="collapse">
-                  <div class="card-body">
-                    Person with any background can be a good programmer.there is
-                    no limitations.but the point is that you have to continuosly
-                    improve your mathematics skills,because logic building is
-                    very important in programming and if you are good at
-                    mathematics your logical ability will be automatically good.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- what i can do -->
-    <section id="service" class="p-4">
-      <div class="dark-overlay">
-        <div class="row mt-5 pt-3">
-          <div class="col align-self">
-            <div class="container text-center">
-              <h1 class="heading-resp">SERVICES OFFERED</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
-      <div class="container p-5 py-2 text-center">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4">
-              <div class="card-body">
-                <img
-                  src="css/img/webdev1.jpg"
-                  class="img-fluid mb-4 card-img-top"
-                  alt=""
-                />
-                <h3 class="mb-4">WEB DEVELOPEMENT</h3>
-                <a href="projects.html" class="btn btn-primary btn-block"
-                  >SEE MY RECENT PROJECTS</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4">
-              <div class="card-body">
-                <img
-                  src="css/img/webdes1.jpg"
-                  class="img-fluid mb-4 card-img-top"
-                  alt=""
-                />
-                <h3 class="mb-4">WEB DESIGNING</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4">
-              <div class="card-body">
-                <img
-                  src="css/img/appdev1.png"
-                  class="img-fluid mb-4 card-img-top"
-                  alt=""
-                />
-                <h3 class="mb-4">APP DEVELOPEMENT</h3>
-                <a href="projects.html" class="btn btn-primary btn-block"
-                  >SEE MY RECENT APPS.</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- work together -->
-    <section id="workTogether" class="p-4">
-      <div class="dark-overlay">
-        <div class="row mt-5 pt-3">
-          <div class="col align-self">
-            <div class="container text-center">
-              <p class="lead">
-                need a website or app for your buisness/startup/anyother
-              </p>
-              <h1 class="heading-resp">Let's Work Together</h1>
-              <div class="pt-3">
-                <a href="services.html" class="btn btn-success btn-large mr-4"
-                  >SEE PLANS</a
-                >
-                <a href="contact.html" class="btn btn-primary ml-4"
-                  >CONTACT ME</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- footer -->
-    <section id="footer" class="text-center p-4">
+  <section id="progress" class="py-4">
+    <div class="container">
       <div class="row">
-        <div class="container">
-          <div class="col">
-            <p class="mb-2">Made with love❤ by Mohit Sangwan</p>
-            <a
-              href="https://www.instagram.com/mr.mohit.sangwan/"
-              class="d-inline"
-              ><i style="color: #d54062" class="fab fa-instagram mr-5"></i
-            ></a>
-            <a href="https://github.com/hellomohitsangwan" class="d-inline"
-              ><i style="color: #d54062" class="fab fa-github mr-5"></i
-            ></a>
-            <a
-              href="https://www.facebook.com/mohit.sangwan.3781"
-              class="d-inline"
-              ><i style="color: #d54062" class="fab fa-facebook"></i
-            ></a>
-            <p class="mt-2">
-              Copyright &copy; <span id="year"></span> MOHIT SANGWAN
-            </p>
+        <div class="col-md-8">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header text-center">
+                <h4>
+                  <a href="#collapse7" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> LANGUAGES I KNOW
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse7" class="collapse">
+                <div class="card-body">
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-java fa-2x"></i> JAVA
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-success
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 72%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-python fa-2x"></i> PYTHON
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-primary
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 56%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <img src="css/img/ci.png" width="24" height="24" class="d-inline" alt="" />
+                      C++
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-success
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 64%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-js-square fa-2x"></i> JAVASCRIPT
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-warning
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 48%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-9">
+                    <div class="col-md-3">
+                      <img src="css/img/kotlin8.png" width="24" height="24" class="d-inline" alt="" />
+                      KOTLIN
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-primary
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 32%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header text-center">
+                <h4>
+                  <a href="#collapse8" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> FRONT-END WEB
+                    DEVELOPEMENT
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse8" class="collapse show">
+                <div class="card-body">
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-html5 fa-2x"></i> HTML 5
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-success
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 96%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-css3 fa-2x"></i> CSS
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-danger
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-bootstrap fa-2x"></i> BOOTSTRAP 4
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-primary
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 92%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-js-square fa-2x"></i> JAVASCRIPT
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-warning
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 72%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <img src="css/img/jquery32.jpg" width="24" height="24" alt="" />
+                      JQUERY
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-info
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 56%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-react fa-2x"></i> REACT JS
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-secondary
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-redux fa-2x"></i> REDUX
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-secondary
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 72%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header text-center">
+                <h4>
+                  <a href="#collapse9" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>BACKEND WEB
+                    DEVELOPEMENT
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse9" class="collapse">
+                <div class="card-body">
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-node fa-2x"></i> NODE JS
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-primary
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <img src="css/img/express8.png" width="24" height="24" alt="" />
+                      EXPRESS JS
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-danger
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 88%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <img src="css/img/mongo8.png" width="48" height="44" alt="" />
+                      MONGO DB
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-warning
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 64%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <img src="css/img/mongoose8.jpg" width="48" height="44" alt="" />
+                      MONGOOSE
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-info
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 72%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <img src="css/img/rest8.png" width="32" height="32" alt="" />
+                      R E S T
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-success
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 48%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header text-center">
+                <h4>
+                  <a href="#collapse10" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> APP DEVELOPEMENT
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse10" class="collapse">
+                <div class="card-body">
+                  <div class="row mb-3">
+                    <div class="col-md-3">
+                      <i class="fab fa-java fa-2x"></i> JAVA
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-success
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 72%"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-9">
+                    <div class="col-md-3">
+                      <img src="css/img/kotlin8.png" width="24" height="24" class="d-inline" alt="" />
+                      KOTLIN
+                    </div>
+
+                    <div class="col-md-9">
+                      <div class="progress">
+                        <div class="
+                              progress-bar
+                              bg-danger
+                              progress-bar-striped progress-bar-animated
+                            " style="width: 32%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <img src="css/img/—Pngtree—young people work and study_5426651.png" width="368px" height="368px"
+            class="img-fluid d-lg-block d-none" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- faq test -->
+  <section id="faq-test" class="bg-dark pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  <a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> How to develope
+                    problem solving skills.Please do suggest some techniques?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse1" class="collapse">
+                <div class="card-body">
+                  It is called practice.Start delebrately practicing skills
+                  that you need to improve.After that follow some basic rules
+                  and guidelines.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  <a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Does learning
+                    HTML and CSS make me a good programmer?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse2" class="collapse">
+                <div class="card-body">
+                  HTML is a markup language and CSS is styling
+                  language.Neither is an actual programming language,but
+                  rather ther are document structures/styling features and if
+                  you wanted to be a good programmer then learn javascript
+                  after that.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  <a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>How do we learn
+                    code without laptop?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse3" class="collapse">
+                <div class="card-body">
+                  Install Sololearn is your mobile,then any programming
+                  language and enjoy coding,it also provide an inbuilt text
+                  editor.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  <a href="#collapse4" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Is it okay to
+                    learn multiple programming languages simultaneously
+                    everyday?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse4" class="collapse">
+                <div class="card-body">
+                  NO.It is not.Concentrate only in one language with
+                  mathematics because maths help in logic developement.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  <a href="#collapse5" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>Why I should learn
+                    to code in 2020?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse5" class="collapse">
+                <div class="card-body">
+                  One day AI will replace to all the people except programmers
+                  the yoy have to learn code for job security.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5>
+                  <a href="#collapse6" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> I'm not good in
+                    maths,can i be good in programming?
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse6" class="collapse">
+                <div class="card-body">
+                  Person with any background can be a good programmer.there is
+                  no limitations.but the point is that you have to continuosly
+                  improve your mathematics skills,because logic building is
+                  very important in programming and if you are good at
+                  mathematics your logical ability will be automatically good.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
-    ></script>
-    <!-- javascript bootstarp -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+  <!-- what i can do -->
+  <section id="service" class="p-4">
+    <div class="dark-overlay">
+      <div class="row mt-5 pt-3">
+        <div class="col align-self">
+          <div class="container text-center">
+            <h1 class="heading-resp">SERVICES OFFERED</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script>
-      $("#year").text(new Date().getFullYear());
-    </script>
-    <script src="typed.js">
-    </script>
-    <script>
-        var options = {
-         strings: ['CSE student' , "full stack Intern @ PharmIQ" , 'freelancer', "MERN stack developer" , "bug hunter" , "tech geek" , "ReactJS enthusiast"],
-         typeSpeed: 60
-        };
-        var typed = new Typed('.element', options);
-        </script>
-    <script src="particles.js"></script>
+  <section id="services">
+    <div class="container p-5 py-2 text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="css/img/webdev1.jpg" class="img-fluid mb-4 card-img-top" alt="" />
+              <h3 class="mb-4">WEB DEVELOPEMENT</h3>
+              <a href="projects.html" class="btn btn-primary btn-block">SEE MY RECENT PROJECTS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="css/img/webdes1.jpg" class="img-fluid mb-4 card-img-top" alt="" />
+              <h3 class="mb-4">WEB DESIGNING</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="css/img/appdev1.png" class="img-fluid mb-4 card-img-top" alt="" />
+              <h3 class="mb-4">APP DEVELOPEMENT</h3>
+              <a href="projects.html" class="btn btn-primary btn-block">SEE MY RECENT APPS.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- work together -->
+  <section id="workTogether" class="p-4">
+    <div class="dark-overlay">
+      <div class="row mt-5 pt-3">
+        <div class="col align-self">
+          <div class="container text-center">
+            <p class="lead">
+              need a website or app for your buisness/startup/anyother
+            </p>
+            <h1 class="heading-resp">Let's Work Together</h1>
+            <div class="pt-3">
+              <a href="services.html" class="btn btn-success btn-large mr-4">SEE PLANS</a>
+              <a href="contact.html" class="btn btn-primary ml-4">CONTACT ME</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section id="footer" class="text-center p-4">
+    <div class="row">
+      <div class="container">
+        <div class="col">
+          <p class="mb-2">Made with love❤ by Mohit Sangwan</p>
+          <a href="https://www.instagram.com/mr.mohit.sangwan/" class="d-inline"><i style="color: #d54062"
+              class="fab fa-instagram mr-5"></i></a>
+          <a href="https://github.com/hellomohitsangwan" class="d-inline"><i style="color: #d54062"
+              class="fab fa-github mr-5"></i></a>
+          <a href="https://www.facebook.com/mohit.sangwan.3781" class="d-inline"><i style="color: #d54062"
+              class="fab fa-facebook"></i></a>
+          <p class="mt-2">
+            Copyright &copy; <span id="year"></span> MOHIT SANGWAN
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- javascript bootstarp -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $("#year").text(new Date().getFullYear());
+  </script>
+  <script src="typed.js">
+  </script>
+  <script>
+    var options = {
+      strings: ['CSE student', "full stack Intern @ PharmIQ", 'freelancer', "MERN stack developer", "bug hunter", "tech geek", "ReactJS enthusiast"],
+      typeSpeed: 60
+    };
+    var typed = new Typed('.element', options);
+  </script>
+  <script src="particles.js"></script>
+  <script src="loader.js"></script>
 
 
 
-    </script>
+  </script>
 
-  </body>
+</body>
+
 </html>

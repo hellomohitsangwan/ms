@@ -1,12 +1,6 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  text-decoration: none;
-  list-style-type: none;
-  /* font-family: "Baloo Da 2", cursive; */
-/* } */
+* {
+  /* font-family: "Poppins", sans-serif; */
+}
 html {
   font-size: 82%;
   scroll-behavior: smooth;

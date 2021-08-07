@@ -11,3 +11,8 @@ var swiper = new Swiper(".swiper-container", {
     slideShadows: true,
   },
 });
+Array.from(document.querySelectorAll(".navigation-button")).forEach((item) => {
+  item.onclick = () => {
+    item.parentElement.parentElement.classList.toggle("change");
+  };
+});

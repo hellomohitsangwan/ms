@@ -22,6 +22,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/customscrollbar.css">
     <title>Mohit Sangwan</title>
 
     <!-- light box -->
@@ -35,7 +37,28 @@
     <link rel="manifest" href="/site.webmanifest" />
     <title>Mohit Sangwan</title>
   </head>
-  <body>
+  <body data-gr-c-s-loaded="true" class="home_load load_test" >
+    <!-- perloader   -->
+    <div class="pre_loader">
+      <div class="preload">
+        <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+          preserveAspectRatio="xMidYMid" class="lds-ripple" style="background:0 0">
+          <circle cx="50" cy="50" r="4.719" fill="none" stroke="#1d3f72" stroke-width="2">
+            <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1"
+              begin="-1.5s" repeatCount="indefinite" />
+            <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1"
+              begin="-1.5s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="50" cy="50" r="27.591" fill="none" stroke="#5699d2" stroke-width="2">
+            <animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1"
+              begin="0s" repeatCount="indefinite" />
+            <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1"
+              begin="0s" repeatCount="indefinite" />
+          </circle>
+        </svg>
+        <img class="loaderimg" src="signature.png" alt="vdfvbd" width="400px">
+      </div>
+    </div>
     <!-- navbar -->
     <nav
       class="
@@ -100,7 +123,7 @@
             <div class="col-md-7 align-self-center">
               <div class="column1">
                 <h2 class="display-1 mt-2 pt-5 heading1resp">
-                  wite code and smile
+                  write CODE💻 and SMILE 😄
                 </h2>
                 <h2 class="pt-2 heading2resp">I am Mohit Kumar</h2>
                 <h2 class="pt-2 heading2resp">A <span style="color: black;" class="element test"></span></h2>
@@ -1038,6 +1061,7 @@
         var typed = new Typed('.element', options);
         </script>
     <script src="particles.js"></script>
+    <script src="loader.js"></script>
 
 
 
